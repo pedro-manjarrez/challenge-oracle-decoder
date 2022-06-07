@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="encripta.css">
+    <title>Desafio 1 - ONE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="grid">
+        <div class="nested">
+            <div class="Logo"><img src="img/Vector.svg"; width="3%";></div>
+            <div class="Texto">Ingrese el texto que desea encriptar o desencriptar
+                <br>
+                <textarea type="text" id="IntroTexto" cols="40" rows="6" placeholder="Ingrese su texto aqui">
+                </textarea> 
+                <br><br>
+            </div>
+            <h4>Solo letras minùsculas y sin acentos</h4>
+            <hr>
+            <div class="Botones"> 
+                <footer>
+                    <ul>
+                        <li>
+                            <button id="desencriptaTexto">Desencriptar</button>
+                        </li> 
+                        <li>
+                            <button id="encriptaTexto">Encriptar</button>
+                        </li> 
+                    </ul>
+                </footer>
+            </div>
+        </div>
+        <div class="Encriptado">Encriptado
+            <br>
+            <img  src="img/Muñeco.png" id="muneco" alt=""; width="80%">
+            
+            <div class="mensaje-contenedor">
+                <textarea type="text" id="encriptado" cols="30" rows="6" placeholder="Texto Encriptado">
+                </textarea>
+                <!--<input type="text" id="encriptado" placeholder="Texto Encriptado">-->
+            </div class="ningun-mensaje">
+                <h2 id="ninguno">Ningun mensaje fue encontrado</h2>
+                <div class="contenedor-botones">
+                    <button id="copiarTexto">Copiar</button>
+                </div>
+        </div>
+    </div>
+    <script src="encripta.js"></script>
+</body>
+</html>

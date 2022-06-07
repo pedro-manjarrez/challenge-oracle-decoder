@@ -1,0 +1,87 @@
+.grid {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: minmax(20px, auto);
+}
+
+.grid div{
+    background: #ecf0f1;
+    padding: 1em;
+}
+
+.grid div:hover{
+    border: 1px solid #f1c40f;
+}
+
+.Texto{
+    text-align: center;
+}
+
+#encriptaTexto {
+    text-decoration:none;
+    font-weight:300;
+    font-size:10px;
+    color:#000000;
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color: #1565C0;
+    border: 2px solid black;
+    border-radius: 25px;
+    align-items: center;
+    }
+
+#desencriptaTexto {
+    text-decoration:none;
+    font-weight:300;
+    font-size:10px;
+    color:#000000;
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color: #B0BEC5;
+    border: 2px solid black;
+    border-radius: 25px;
+    align-items: center;
+}
+
+#copiarTexto {
+    text-decoration:none;
+    font-weight:300;
+    font-size:10px;
+    color:#000000;
+    padding-top:6px;
+    padding-bottom:6px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color: #f6f9fa;
+    border: 2px solid black;
+    border-radius: 25px;
+    align-items: center;
+    display: none;
+}
+
+
+.Encriptado{
+    margin-right: 5em;
+    margin-left: .5em;
+    text-align: center;
+}
+
+.Botones{
+    text-align: right;
+    float: right;
+}
+
+#encrypt{
+    display: none;
+}
+
+footer ul li{
+    float: right;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+}
